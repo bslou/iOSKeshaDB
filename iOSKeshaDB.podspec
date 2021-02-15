@@ -24,7 +24,7 @@ TODO: This is a free opensource database, it is currently only available for swi
   s.homepage         = 'https://github.com/bslou/iOSKeshaDB'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Benjamin Sloutsky' => 'ben.sloutsky@gmail.com' }
+  s.author           = { 'Crators' => 'crators.company@gmail.com' }
   s.source           = { :git => 'https://github.com/bslou/iOSKeshaDB.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
