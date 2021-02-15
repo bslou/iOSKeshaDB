@@ -23,7 +23,7 @@ pod 'iOSKeshaDB'
 
 ## Author
 
-Benjamin Sloutsky, ben.sloutsky@gmail.com
+Crators, crators.company@gmail.com
 
 ## License
 
