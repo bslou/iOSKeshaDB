@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iOSKeshaDB'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iOSKeshaDB.'
+  s.summary          = 'Free, opensource, database.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: This is a free opensource database, it is currently only available for swift developers.
                        DESC
 
-  s.homepage         = 'https://github.com/Benjamin Sloutsky/iOSKeshaDB'
+  s.homepage         = 'https://github.com/bslou/iOSKeshaDB'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Benjamin Sloutsky' => 'ben.sloutsky@gmail.com' }
-  s.source           = { :git => 'https://github.com/Benjamin Sloutsky/iOSKeshaDB.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/bslou/iOSKeshaDB.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'iOSKeshaDB/Classes/**/*'
   
   # s.resource_bundles = {
